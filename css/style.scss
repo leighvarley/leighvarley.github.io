@@ -1,0 +1,44 @@
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+$fontPrimary: 'Amatic SC';
+$primaryFontColor: #10368F;
+
+body {
+  margin: 3em;
+  background-color: #eee;
+}
+
+h1, h2, p {
+  font-family: $fontPrimary;
+  color: $primaryFontColor;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 0.5em;
+}
+h2 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.5em;
+    & a:hover{
+      font-size: 2em;
+    }
+}
+div {
+  float: left;
+  width: 30%;
+  margin: 1em;
+}

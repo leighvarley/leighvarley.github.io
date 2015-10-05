@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Cabin+Condensed);
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -5798,28 +5798,53 @@ button.close {
     display: none !important; } }
 body {
   margin: 3em;
-  background-color: #eee; }
+  background-color: #eee;
+  padding-top: 3em; }
 
-h1, h2, p {
-  font-family: "Amatic SC";
-  color: #10368F;
-  line-height: 1.6em; }
+.navbar {
+  background-color: #45464F; }
+
+h1, h2, h3 {
+  line-height: 1.6em;
+  font-family: 'Raleway', sans-serif; }
+
+p, li {
+  line-height: 1.6em;
+  font-family: 'Cabin Condensed', sans-serif; }
+
+ul {
+  float: right;
+  list-style: none; }
+  ul li {
+    float: left;
+    margin-left: 1em;
+    font-size: 2em;
+    color: #FFFFFF; }
 
 h1 {
-  font-size: 3em;
-  text-shadow: 0.5em; }
+  font-size: 4em;
+  text-shadow: 0.5em;
+  color: #701112; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #45464F; }
 
-p {
-  font-size: 1.5em; }
-  p a:hover {
+h3 {
+  font-size: 1.5em;
+  color: #C5BD99; }
+  h3 a:hover {
     font-size: 2em; }
 
-div {
-  float: left;
-  width: 30%;
-  margin: 1em; }
+p {
+  font-size: 1.25em;
+  color: #999999; }
+
+a {
+  font-size: 1.25em;
+  color: #C5BD99; }
+  a :hover {
+    font-size: 2em;
+    color: #701112; }
 
 /*# sourceMappingURL=style.css.map */

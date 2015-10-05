@@ -1,44 +1,77 @@
-
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Cabin+Condensed);
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
-@mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-$fontPrimary: 'Amatic SC';
-$primaryFontColor: #10368F;
+// @mixin clearfix {
+//   &:after {
+//     content: "";
+//     display: table;
+//     clear: both;
+//   }
+// }
 
 body {
   margin: 3em;
   background-color: #eee;
+  padding-top: 3em;
 }
 
-h1, h2, p {
-  font-family: $fontPrimary;
-  color: $primaryFontColor;
-  line-height: 1.6em;
+.navbar {
+  background-color: #45464F;
 }
+
+h1, h2, h3 {
+  line-height: 1.6em;
+  font-family: 'Raleway', sans-serif;
+}
+
+p, li {
+  line-height: 1.6em;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+
+ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 1em;
+      font-size: 2em;
+      color: #FFFFFF;
+    }
+  }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   text-shadow: 0.5em;
+  color: #701112;
 }
 h2 {
   font-size: 2em;
+  color: #45464F;
+}
+h3 {
+  font-size: 1.5em;
+  color: #C5BD99;
+  & a:hover{
+    font-size: 2em;
+  }
 }
 p {
-  font-size: 1.5em;
-    & a:hover{
-      font-size: 2em;
-    }
+  font-size: 1.25em;
+  color: #999999;
 }
-div {
-  float: left;
-  width: 30%;
-  margin: 1em;
+a {
+  font-size: 1.25em;
+  color: #C5BD99;
+  & :hover{
+    font-size: 2em;
+    color: #701112;
+  }
 }
+
+// div {
+//   float: left;
+//   width: 30%;
+//   margin: 1em;
+// }

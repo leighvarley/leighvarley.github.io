@@ -5808,6 +5808,21 @@ h1, h2, h3 {
   line-height: 1.6em;
   font-family: 'Raleway', sans-serif; }
 
+h1 {
+  font-size: 4em;
+  text-shadow: 0.5em;
+  color: #701112; }
+
+h2 {
+  font-size: 2em;
+  color: #45464F; }
+  h2 a {
+    color: #45464F; }
+
+h3 {
+  font-size: 1.5em;
+  color: #701112; }
+
 p, li {
   line-height: 1.6em;
   font-family: 'Cabin Condensed', sans-serif; }
@@ -5820,21 +5835,8 @@ ul {
     margin-left: 1em;
     font-size: 2em;
     color: #FFFFFF; }
-
-h1 {
-  font-size: 4em;
-  text-shadow: 0.5em;
-  color: #701112; }
-
-h2 {
-  font-size: 2em;
-  color: #45464F; }
-
-h3 {
-  font-size: 1.5em;
-  color: #C5BD99; }
-  h3 a:hover {
-    font-size: 2em; }
+    ul li a {
+      color: #FFFFFF; }
 
 p {
   font-size: 1.25em;
@@ -5842,9 +5844,6 @@ p {
 
 a {
   font-size: 1.25em;
-  color: #C5BD99; }
-  a :hover {
-    font-size: 2em;
-    color: #701112; }
+  color: #003366; }
 
 /*# sourceMappingURL=style.css.map */

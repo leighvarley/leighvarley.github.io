@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway|Cabin+Condensed);
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
-// @mixin clearfix {
-//   &:after {
-//     content: "";
-//     display: table;
-//     clear: both;
-//   }
-// }
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 body {
   margin: 3em;
@@ -23,12 +23,27 @@ h1, h2, h3 {
   line-height: 1.6em;
   font-family: 'Raleway', sans-serif;
 }
+h1 {
+  font-size: 4em;
+  text-shadow: 0.5em;
+  color: #701112;
+}
+h2 {
+  font-size: 2em;
+  color: #45464F;
+  a {
+    color: #45464F;
+  }
+}
+h3 {
+  font-size: 1.5em;
+  color: #701112;;
+}
 
 p, li {
   line-height: 1.6em;
   font-family: 'Cabin Condensed', sans-serif;
 }
-
 
 ul {
     float: right;
@@ -38,36 +53,19 @@ ul {
       margin-left: 1em;
       font-size: 2em;
       color: #FFFFFF;
+      a {
+        color: #FFFFFF;
+      }
     }
   }
 
-h1 {
-  font-size: 4em;
-  text-shadow: 0.5em;
-  color: #701112;
-}
-h2 {
-  font-size: 2em;
-  color: #45464F;
-}
-h3 {
-  font-size: 1.5em;
-  color: #C5BD99;
-  & a:hover{
-    font-size: 2em;
-  }
-}
 p {
   font-size: 1.25em;
   color: #999999;
 }
 a {
   font-size: 1.25em;
-  color: #C5BD99;
-  & :hover{
-    font-size: 2em;
-    color: #701112;
-  }
+  color: #003366;
 }
 
 // div {

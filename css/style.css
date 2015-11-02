@@ -5797,7 +5797,8 @@ button.close {
   .hidden-print {
     display: none !important; } }
 .navbar {
-  background-color: #45464F; }
+  background-color: #45464F;
+  padding-top: 0.4em; }
 
 body {
   margin: 3em;
@@ -5806,9 +5807,10 @@ body {
 .about-contact {
   background-color: #DEDEDE;
   padding: 3em;
-  margin-top: 2em; }
+  margin-top: 2em;
+  border: 0.1em solid #45464F; }
 
-#project-summary {
+#projects {
   background-color: #C9C9C9;
   padding: 2em;
   margin-top: 2em; }
@@ -5828,23 +5830,23 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif; }
 
 h1 {
-  font-size: 4em;
-  text-shadow: 0.5em;
-  color: #701112; }
-
-h2 {
   font-size: 2em;
   color: #45464F; }
-  h2 a {
-    color: #45464F; }
 
-h3 {
-  font-size: 1.5em;
+h2 {
+  font-size: 1.75em;
   color: #701112; }
 
-p, li {
+p {
   line-height: 1.6em;
-  font-family: 'Cabin Condensed', sans-serif; }
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 1.25em;
+  color: #999999; }
+
+a {
+  font-size: 1.25em;
+  color: #003366;
+  text-decoration: none; }
 
 ul {
   float: right;
@@ -5852,17 +5854,9 @@ ul {
   ul li {
     float: left;
     margin-left: 1em;
-    font-size: 2em;
+    font-size: 1.2em;
     color: #FFFFFF; }
     ul li a {
       color: #FFFFFF; }
-
-p {
-  font-size: 1.25em;
-  color: #999999; }
-
-a {
-  font-size: 1.25em;
-  color: #003366; }
 
 /*# sourceMappingURL=style.css.map */

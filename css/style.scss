@@ -36,12 +36,18 @@ body {
   background-color: white;
   padding: 2em;
   margin-top: 1em;
+  &:hover {
+    background-color: #d6ebf2;
+  }
 }
 
 .project-even {
   background-color: #F0F0F0;
   padding: 2em;
   margin-top: 1em;
+  &:hover {
+    background-color: #d6ebf2;
+  }
 }
 
 h1, h2, h3 {
@@ -49,14 +55,17 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-// h1 {
-//   font-size: 4em;
-//   text-shadow: 0.5em;
-//   color: #701112;
-// }
 h1 {
   font-size: 2em;
   color: #45464F;
+  a {
+    font-size: 2em;
+    color: #45464F;
+    &:hover {
+      text-decoration: none;
+      color: #45464F;
+    }
+  }
 }
 
 h2 {
@@ -69,12 +78,14 @@ p {
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 1.25em;
   color: #999999;
-}
-
-a {
-  font-size: 1.25em;
-  color: #003366;
-  text-decoration: none;
+  a {
+    font-size: 1.25em;
+    color: #003366;
+    &:hover {
+      text-decoration: none;
+      font-size: 1.75em;
+    }
+  }
 }
 
 ul {
@@ -87,6 +98,11 @@ ul {
       color: #FFFFFF;
       a {
         color: #FFFFFF;
+        &:hover {
+          color: #FFFFFF;
+          text-decoration: none;
+          font-size: 1.75em;
       }
     }
   }
+}

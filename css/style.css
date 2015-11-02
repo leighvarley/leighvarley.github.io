@@ -5819,11 +5819,15 @@ body {
   background-color: white;
   padding: 2em;
   margin-top: 1em; }
+  .project-odd:hover {
+    background-color: #d6ebf2; }
 
 .project-even {
   background-color: #F0F0F0;
   padding: 2em;
   margin-top: 1em; }
+  .project-even:hover {
+    background-color: #d6ebf2; }
 
 h1, h2, h3 {
   line-height: 1.6em;
@@ -5832,6 +5836,12 @@ h1, h2, h3 {
 h1 {
   font-size: 2em;
   color: #45464F; }
+  h1 a {
+    font-size: 2em;
+    color: #45464F; }
+    h1 a:hover {
+      text-decoration: none;
+      color: #45464F; }
 
 h2 {
   font-size: 1.75em;
@@ -5842,11 +5852,12 @@ p {
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 1.25em;
   color: #999999; }
-
-a {
-  font-size: 1.25em;
-  color: #003366;
-  text-decoration: none; }
+  p a {
+    font-size: 1.25em;
+    color: #003366; }
+    p a:hover {
+      text-decoration: none;
+      font-size: 1.75em; }
 
 ul {
   float: right;
@@ -5858,5 +5869,9 @@ ul {
     color: #FFFFFF; }
     ul li a {
       color: #FFFFFF; }
+      ul li a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 1.75em; }
 
 /*# sourceMappingURL=style.css.map */

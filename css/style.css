@@ -5797,7 +5797,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 .navbar {
-  background-color: #45464F;
+  background-color: #A0C2BB;
   padding-top: 0.4em; }
 
 body {
@@ -5805,28 +5805,28 @@ body {
   padding-top: 3em; }
 
 .about-contact {
-  background-color: #DEDEDE;
+  background-color: #9BAAB9;
   padding: 3em;
   margin-top: 2em; }
 
 #projects {
-  background-color: #C9C9C9;
+  background-color: #d7dde3;
   padding: 2em;
   margin-top: 2em; }
 
 .project-odd {
-  background-color: white;
+  background-color: #fdf5f3;
   padding: 2em;
   margin-top: 1em; }
   .project-odd:hover {
-    background-color: #d6ebf2; }
+    background-color: #fae2dd; }
 
 .project-even {
-  background-color: #F0F0F0;
+  background-color: #fceeea;
   padding: 2em;
   margin-top: 1em; }
   .project-even:hover {
-    background-color: #d6ebf2; }
+    background-color: #f9dbd4; }
 
 h1, h2, h3 {
   line-height: 1.6em;
@@ -5834,26 +5834,26 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2em;
-  color: #45464F; }
+  color: #FFA58B; }
   h1 a {
     font-size: 2em;
-    color: #45464F; }
+    color: #FFA58B; }
     h1 a:hover {
       text-decoration: none;
-      color: #45464F; }
+      color: #FFA58B; }
 
 h2 {
   font-size: 1.75em;
-  color: #701112; }
+  color: #ff7d58; }
 
 p {
   line-height: 1.6em;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 1.25em;
-  color: #999999; }
+  color: #495867; }
   p a {
     font-size: 1.25em;
-    color: #003366; }
+    color: #343f49; }
     p a:hover {
       text-decoration: none;
       font-size: 1.75em; }

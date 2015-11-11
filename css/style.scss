@@ -10,7 +10,7 @@
 }
 
 .navbar {
-  background-color: #45464F;
+  background-color: #A0C2BB;
   padding-top: 0.4em;
 }
 
@@ -20,33 +20,32 @@ body {
 }
 
 .about-contact {
-  background-color: #DEDEDE;
+  background-color: #9BAAB9;
   padding: 3em;
   margin-top: 2em;
-  // border: 0.1em solid #45464F;
 }
 
 #projects {
-  background-color: #C9C9C9;
+  background-color: lighten( #9BAAB9, 20% );
   padding: 2em;
   margin-top: 2em;
 }
 
 .project-odd {
-  background-color: white;
+  background-color: lighten(#FBE6E1, 4% );
   padding: 2em;
   margin-top: 1em;
   &:hover {
-    background-color: #d6ebf2;
+    background-color: darken( #FBE6E1, 1% );
   }
 }
 
 .project-even {
-  background-color: #F0F0F0;
+  background-color: lighten(#FBE6E1, 2% );
   padding: 2em;
   margin-top: 1em;
   &:hover {
-    background-color: #d6ebf2;
+    background-color: darken( #FBE6E1, 3% );
   }
 }
 
@@ -57,30 +56,30 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2em;
-  color: #45464F;
+  color: #FFA58B;
   a {
     font-size: 2em;
-    color: #45464F;
+    color: #FFA58B;
     &:hover {
       text-decoration: none;
-      color: #45464F;
+      color: #FFA58B;
     }
   }
 }
 
 h2 {
   font-size: 1.75em;
-  color: #701112;
+  color: darken( #FFA58B, 10% )
 }
 
 p {
   line-height: 1.6em;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 1.25em;
-  color: #999999;
+  color: #495867;
   a {
     font-size: 1.25em;
-    color: #003366;
+    color: darken( #495867, 10% );
     &:hover {
       text-decoration: none;
       font-size: 1.75em;

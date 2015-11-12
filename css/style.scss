@@ -81,6 +81,16 @@ body {
   }
 }
 
+//Image
+img {
+  margin: 1em;
+  border: 0.1em solid $portfolio-gray;
+  border-radius: 50%;
+  float: left;
+  height: 15em;
+  width: 15em;
+}
+
 //Typography
 h1, h2 {
   line-height: 1.6em;

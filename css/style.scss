@@ -63,8 +63,10 @@ body {
   background-color: lighten( $portfolio-gray, 20% );
   padding: 2em;
   margin-top: 1em;
+  transition: all .2s ease-in-out;
   &:hover {
     background-color: $portfolio-gray;
+    transform: scale(1.1);
   }
 }
 
@@ -72,8 +74,10 @@ body {
   background-color: lighten( $portfolio-gray, 15% );
   padding: 2em;
   margin-top: 1em;
+  transition: all .2s ease-in-out;
   &:hover {
     background-color: #BCBDC1;
+    transform: scale(1.1);
   }
 }
 

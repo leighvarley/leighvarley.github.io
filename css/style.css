@@ -5800,6 +5800,21 @@ button.close {
   background-color: #A0C2BB;
   padding-top: 0.4em; }
 
+ul {
+  float: right;
+  list-style: none; }
+  ul li {
+    float: left;
+    margin-left: 1em;
+    font-size: 1.5em;
+    color: #FFFFFF; }
+    ul li a {
+      color: #FFFFFF; }
+      ul li a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 1.75em; }
+
 body {
   margin: 3em;
   padding-top: 3em; }
@@ -5815,20 +5830,20 @@ body {
   margin-top: 2em; }
 
 .project-odd {
-  background-color: #fdf5f3;
+  background-color: #f1f1f2;
   padding: 2em;
   margin-top: 1em; }
   .project-odd:hover {
-    background-color: #fae2dd; }
+    background-color: #BCBDC1; }
 
 .project-even {
-  background-color: #fceeea;
+  background-color: #e4e4e6;
   padding: 2em;
   margin-top: 1em; }
   .project-even:hover {
-    background-color: #f9dbd4; }
+    background-color: #BCBDC1; }
 
-h1, h2, h3 {
+h1, h2 {
   line-height: 1.6em;
   font-family: 'Raleway', sans-serif; }
 
@@ -5850,27 +5865,13 @@ p {
   line-height: 1.6em;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 1.25em;
-  color: #495867; }
+  color: #55565c; }
   p a {
     font-size: 1.25em;
-    color: #343f49; }
+    color: #384450; }
     p a:hover {
       text-decoration: none;
-      font-size: 1.75em; }
-
-ul {
-  float: right;
-  list-style: none; }
-  ul li {
-    float: left;
-    margin-left: 1em;
-    font-size: 1.2em;
-    color: #FFFFFF; }
-    ul li a {
-      color: #FFFFFF; }
-      ul li a:hover {
-        color: #FFFFFF;
-        text-decoration: none;
-        font-size: 1.75em; }
+      font-size: 1.75em;
+      color: #0e1114; }
 
 /*# sourceMappingURL=style.css.map */

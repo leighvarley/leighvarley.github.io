@@ -5818,6 +5818,10 @@ ul {
 body {
   margin: 3em;
   padding-top: 3em; }
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .about-contact {
   background-color: #9BAAB9;

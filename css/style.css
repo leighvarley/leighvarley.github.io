@@ -5827,7 +5827,7 @@ body {
   background-color: #9BAAB9;
   padding: 3em;
   margin-top: 2em;
-  height: auto; }
+  overflow: auto; }
 
 #projects {
   background-color: #d7dde3;

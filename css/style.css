@@ -5852,7 +5852,7 @@ body {
     transform: scale(1.1); }
 
 img {
-  margin: 1em;
+  margin: 1em 1em 1em 0;
   border: 0.1em solid #BCBDC1;
   border-radius: 50%;
   float: left;
